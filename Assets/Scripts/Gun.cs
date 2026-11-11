@@ -26,7 +26,7 @@ public class Gun : MonoBehaviour
         timeSinceLastShot = fireRate;
         player = GameObject.Find("Player").transform;
 
-        SetOffset(new Vector2(0.5f, 0.5f));
+        // SetOffset(new Vector2(0.5f, 0.5f));
     }
 
     private void Update()
@@ -78,6 +78,7 @@ public class Gun : MonoBehaviour
 
     void Shoot()
     {
+        anim.SetTrigger("Shoot");
         var muzzleGo = Instantiate(muzzle,muzzlePosition.position,transform.rotation);
         muzzleGo.transform.SetParent(transform);
         Destroy(muzzleGo,0.05f);

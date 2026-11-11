@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    float speed = 12f;
+    float speed = 18f;
     private void FixedUpdate()
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);

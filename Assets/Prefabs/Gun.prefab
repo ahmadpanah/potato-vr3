@@ -128,6 +128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3150784791025158246}
   - component: {fileID: 2661552195357063854}
+  - component: {fileID: 854655059678311952}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -166,6 +167,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   muzzle: {fileID: 7701121489554006000, guid: bfba8c8117db21140815f08834bfea22, type: 3}
   muzzlePosition: {fileID: 6181989222143114713}
-  projectile: {fileID: 0}
+  projectile: {fileID: 6476983352909698148, guid: 57144b50170feb346835e1187cfbe8c7, type: 3}
   fireDistance: 10
   fireRate: 0.5
+--- !u!95 &854655059678311952
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8277730732498604665}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cde664c70607c5a408edd34423a2f041, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
